@@ -7,43 +7,30 @@ class App extends Component {
     return (
       <>
         <ContactCard
-          name="John"
-          mobile="2125555555"
-          work="8002222222"
-          email="hello@example.com"
+          name = "Betty"
+          lname = "Rodriguez"
+          mobile = "202-555-0151"
+          work = ""
+          email = "rodriguez.b@siosfatuat.tk"
         />
         <ContactCard
-          name="Jill"
-          mobile="7185555555"
-          work="7182222222"
-          email="jill@example.org"
+          name = "Ciaran"
+          lname = "Jones"
+          mobile = "615-812-4661"
+          work = "907-825-8908"
+          email = "ciaran.j@twizadnu.org"
         />
         <ContactCard
-          name="Mike"
-          mobile="3475555555"
-          work="5552222222"
-          email="mike@example.com"
+          name="Georgie"
+          lname = "Williams"
+          mobile="517-902-2231"
+          work="719-662-1898"
+          email="gw123@ksea.ga"
         />
       </>
     );
   }
 }
 
-
-/**Deccreament
- * class App extends Component {
-  render() {
-    return (
-      <>
-        <Decrement start={5} />
-        <Decrement start={15} />
-        <Decrement start={50} />
-      </>
-    );
-  }
-}
- * 
- * 
- */
 export default App;
 
